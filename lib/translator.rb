@@ -16,7 +16,7 @@ def load_library(path)
    new_hash['get_emoticon'][language_array[0]] = language_array[1]
    
   end
-  puts new_hash
+  #puts new_hash
   return new_hash
 end
 
