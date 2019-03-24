@@ -14,7 +14,9 @@ def load_library(path)
    #new_hash['get_meaning'][language_array[1]] = definition
    #new_hash['get_emoticon'][language_array[0]] = definition
    language_array.each_with_index do |val,index|
-     puts index
+     if index == 0
+       puts val
+     end 
    end
   end
   puts new_hash
