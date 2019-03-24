@@ -27,7 +27,7 @@ def get_japanese_emoticon(path,emote)
     if emote == key
       return value
     else
-      return "Sorry, argument is not a known emoticon."
+      puts "Sorry, argument is not a known emoticon."
     end
   end
   #value
