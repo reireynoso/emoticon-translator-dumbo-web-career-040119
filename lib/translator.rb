@@ -23,7 +23,9 @@ end
 def get_japanese_emoticon(path,emote)
   # code goes here
   emoticons = load_library(path)
-  puts emoticons['get_emoticon']
+  emoticons['get_emoticon'].each do |key, value|
+    puts key
+  end
 end
 
 def get_english_meaning
