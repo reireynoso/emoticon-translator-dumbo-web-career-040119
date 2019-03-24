@@ -26,9 +26,11 @@ def get_japanese_emoticon(path,emote)
   emoticons['get_emoticon'].each do |key, value|
     if emote == key
       return value
+    else
+      return 
     end
   end
-  value
+  #value
 end
 
 def get_english_meaning
