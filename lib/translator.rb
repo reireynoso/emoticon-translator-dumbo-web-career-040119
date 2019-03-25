@@ -32,7 +32,7 @@ def get_japanese_emoticon(path,emote)
   if japanese_equivalent.empty? == false
     return japanese_equivalent
   else
-    puts 
+    puts "Sorry, that emoticon was not found"
   end
 end
 
