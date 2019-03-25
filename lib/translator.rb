@@ -22,10 +22,11 @@ end
 
 def get_japanese_emoticon(path,emote)
   # code goes here
+  
   emoticons = load_library(path)
   emoticons['get_emoticon'].each do |key, value|
     if key == emote
-      return value
+      value
     else
       puts "Sorry, that emoticon was not found"
     end
