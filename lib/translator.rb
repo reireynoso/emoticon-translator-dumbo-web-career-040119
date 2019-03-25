@@ -29,7 +29,8 @@ def get_japanese_emoticon(path,emote)
       japanese_equivalent = value
     end
   end
-  return japanese_equivalent
+  if japanese_equivalent
+    return japanese_equivalent
 end
 
 def get_english_meaning
