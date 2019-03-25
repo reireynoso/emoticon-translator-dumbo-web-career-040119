@@ -29,7 +29,7 @@ def get_japanese_emoticon(path,emote)
       japanese_equivalent = value
     end
   end
-  puts japanese_equivalent.empty?
+  #puts japanese_equivalent.empty?
   if japanese_equivalent.empty? == false
     return japanese_equivalent
   else
