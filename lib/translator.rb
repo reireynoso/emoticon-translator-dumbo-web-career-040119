@@ -40,9 +40,17 @@ end
 
 def get_english_meaning(path,emote)
   # code goes here
+  english_meaning = ""
   emoticons = load_library(path)
   emoticons['get_meaning'].each do |key,value|
-    puts value
+    if emote == key
+      english_meaning = value
+    end
+  end
+  if english_meaning.empty? == false
+    return english_meaning
+  else
+    return
   end
 end
 
