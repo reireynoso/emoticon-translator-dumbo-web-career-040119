@@ -50,7 +50,7 @@ def get_english_meaning(path,emote)
   if english_meaning.empty? == false
     return english_meaning
   else
-    return
+    return "Sorry, that emoticon was not found"
   end
 end
 
